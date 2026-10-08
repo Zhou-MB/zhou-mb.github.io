@@ -41,3 +41,7 @@ Indexing and ranking for “Mengbing Zhou” or “周梦兵” are controlled b
 References: [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages), [Google indexing requests](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl).
 
 Teaching and supervision entries in `#teaching-list` use `data-sort-date="YYYY-MM"` for the end date. They are sorted newest first, with five shown initially and a Show more / Show less button when needed.
+
+## Publication badges
+
+Each paper displays year, Bib, and PDF badges before its venue. Fill `publicationResources` in `publications.js` with the verified year, BibTeX string, and a repository-relative PDF path. Until supplied, the year shows “Year —” and Bib/PDF controls are disabled. Bib opens the exact text inline (and closes on a second click). PDFs use the browser's download attribute; host them in this repository for reliable same-origin downloads. Keep resource keys matched to each publication's HTML ID.

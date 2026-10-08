@@ -32,3 +32,19 @@
 .education-list li,.teaching-list li,.experience-list li{padding-left:4px}
 .education-list li::marker,.teaching-list li::marker,.experience-list li::marker{color:var(--muted);font-size:.8em}
 
+
+/* Publication resources precede the venue and wrap naturally on small screens. */
+.publication-meta{display:flex;align-items:baseline;flex-wrap:wrap;gap:7px;margin:8px 0}
+.publication-badge{display:inline-block;border:1px solid #ccd7e0;border-radius:4px;padding:1px 8px;background:#f5f8fa;color:var(--blue);font:inherit;font-size:13px;font-style:normal;line-height:1.7;text-decoration:none;white-space:nowrap}
+button.publication-badge:not(:disabled),a.publication-badge[href]{cursor:pointer}
+.publication-badge:disabled,.publication-badge[aria-disabled="true"]{color:#727b84;border-color:var(--line);background:#fafafa;cursor:default}
+.publication-badge:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+.publication-meta .publication-venue{flex:1 1 240px;margin:0 0 0 3px}
+.bib-content{margin:10px 0;padding:14px;background:#f5f8fa;border:1px solid var(--line);border-radius:4px;white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px;line-height:1.6}
+.bib-content[hidden]{display:none}
+
+.publication-venue .authorship{display:inline;font-style:normal;white-space:nowrap}
+
+.publication-list .publication[hidden],.publication-more[hidden]{display:none}
+
+.publication-controls{display:flex;gap:20px;align-items:center}

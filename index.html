@@ -15,6 +15,7 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
   <script src="news.js" defer></script>
+  <script src="publications.js" defer></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -51,7 +52,8 @@
         <p class="role">PhD Candidate<span aria-hidden="true"> · </span><span class="institution-link">University of Amsterdam</span></p>
       </div>
       <div class="section-body about-body">
-          <p class="lead">Mengbing Zhou is currently a Ph.D. candidate in the <a href="https://mns-research.nl/">Multiscale Networked Systems (MNS) group</a> at the University of Amsterdam (UvA), under the supervision of <a href="https://staff.fnwi.uva.nl/z.zhao/">Prof. Zhiming Zhao</a> and <a href="https://www.uva.nl/profiel/b/e/a.s.z.belloum/a.s.z.belloum.html">Prof. Adam Belloum</a>. He received his Master's degree from the University of Chinese Academy of Sciences (UCAS), where he worked with <a href="https://airi.suat-sz.edu.cn/info/1134/1355.htm">Prof. Yang Wang</a> and <a href="https://people.ucas.edu.cn/~minxian">Prof. Minxian Xu</a>, and his Bachelor's degree from South China University of Technology (SCUT). His research focuses on distributed digital twin systems, multi-agent coordination, and intelligent scheduling in edge-cloud environments.</p>
+          <p class="lead">Mengbing Zhou is currently a Ph.D. candidate in the <a href="https://mns-research.nl/" target="_blank" rel="noopener noreferrer">Multiscale Networked Systems (MNS) group</a> at the University of Amsterdam (UvA), under the supervision of <a href="https://staff.fnwi.uva.nl/z.zhao/" target="_blank" rel="noopener noreferrer">Prof. Zhiming Zhao</a> and <a href="https://www.uva.nl/profiel/b/e/a.s.z.belloum/a.s.z.belloum.html" target="_blank" rel="noopener noreferrer">Prof. Adam Belloum</a>. He received his Master's degree from the University of Chinese Academy of Sciences (UCAS), where he worked with <a href="https://airi.suat-sz.edu.cn/info/1134/1355.htm" target="_blank" rel="noopener noreferrer">Prof. Yang Wang</a> and <a href="https://people.ucas.edu.cn/~minxian" target="_blank" rel="noopener noreferrer">Prof. Minxian Xu</a>, and his Bachelor's degree from South China University of Technology (SCUT).</p>
+          <p class="lead">His research focuses on distributed digital twin systems, multi-agent coordination, and intelligent scheduling in edge-cloud environments.</p>
           <h3 class="subheading">Education</h3>
           <ul class="education-list">
             <li><div class="education-details"><div class="education-school"><strong>University of Amsterdam</strong> <span class="entry-date">(Dec 2025 – Present)</span></div><span>PhD Candidate · Informatics Institute, Faculty of Science</span></div></li>
@@ -73,9 +75,12 @@
         <div class="section-label"><h2 id="news-heading">News</h2></div>
         <div class="section-body">
           <ul id="news-list" class="news-list">
-            <li><time datetime="2026-09">Sep 2026</time><p>One paper has been accepted to ICSOC 2026!</p></li>
+            <li><time datetime="2026-09">Sep 2026</time><p>One paper has been accepted to the 24th International Conference on Service-Oriented Computing (ICSOC 2026)!</p></li>
             <li><time datetime="2025-12">Dec 2025</time><p>I joined the University of Amsterdam as a PhD candidate, working on AI-enhanced multi-agent scheduling for distributed digital twin systems.</p></li>
+            <li><time datetime="2025-08">Aug 2025</time><p>One paper has been accepted to IEEE Transactions on Computers (TC)!</p></li>
             <li><time datetime="2025-07">Jul 2025</time><p>I completed my master’s studies in Computer Technology at the University of Chinese Academy of Sciences.</p></li>
+            <li><time datetime="2025-04">Apr 2025</time><p>One survey paper has been accepted to IEEE Transactions on Services Computing (TSC)!</p></li>
+            <li><time datetime="2024-09">Sep 2024</time><p>One paper has been accepted to the IEEE International Symposium on Parallel and Distributed Processing with Applications (ISPA)!</p></li>
           </ul>
         </div>
       </section>
@@ -83,13 +88,83 @@
         <div class="section-label"><h2 id="publications-heading">Publications</h2></div>
         <div class="section-body">
           <!-- Titles, venues, author positions, and links from the CV. Add full citations when available. -->
-          <ol class="publication-list">
-            <li class="publication"><h3><a href="https://ieeexplore.ieee.org/abstract/document/10885367">TollHelper: A Safe and Efficient Traffic Control Approach on Toll Plaza via Constrained Load Balancing</a></h3><p class="publication-venue">IEEE International Symposium on Parallel and Distributed Processing with Applications (ISPA)</p><p class="authorship">First author</p></li>
-            <li class="publication"><h3><a href="https://ieeexplore.ieee.org/abstract/document/10970102">Towards Hybrid Architectures for Big Data Analytics: Insights from Spark-MPI Integration</a></h3><p class="publication-venue">IEEE Transactions on Services Computing (TSC)</p><p class="authorship">First author</p></li>
-            <li class="publication"><h3><a href="https://ieeexplore.ieee.org/abstract/document/11145330">Load Balancing Scheduling for Batch-Ordered Job-Store: Online vs. Offline</a></h3><p class="publication-venue">IEEE Transactions on Computers (TC)</p><p class="authorship">First author</p></li>
-            <li class="publication"><h3><a href="https://jcjs.siat.ac.cn/jcjs/article/abstract/20241203002">Integrated Data Analysis and Processing Platform Based on Spark and MPI</a></h3><p class="publication-venue">Journal of Integration Technology (in Chinese)</p><p class="authorship">First author</p></li>
-            <li class="publication"><h3><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.70238">CloudHive: A Cloud-based Framework for Smart Grid Co-Simulation, Data, and Communication</a></h3><p class="publication-venue">Concurrency and Computation: Practice and Experience</p><p class="authorship">Second author</p></li>
-            <li class="publication"><h3>A Monte Carlo Tree Search-Based Algorithm for Workflow Scheduling</h3><p class="publication-venue">IEEE International Symposium on Parallel and Distributed Processing with Applications (ISPA)</p><p class="authorship">Fourth author</p></li>
+          <h3 class="subheading" id="selected-publications-heading">Selected Publications</h3>
+          <ol class="publication-list" aria-labelledby="selected-publications-heading">
+            <li class="publication" id="batch-ordered-job-store"><h3><a href="https://ieeexplore.ieee.org/abstract/document/11145330" target="_blank" rel="noopener noreferrer">Load Balancing Scheduling for Batch-Ordered Job-Store: Online vs. Offline</a></h3>
+              <div class="publication-meta">
+                <span class="publication-badge publication-year" title="Publication year to be added" aria-label="Publication year to be added">Year —</span>
+                <span class="publication-badge authorship-badge">First author</span>
+                <button class="publication-badge bib-button" type="button" aria-expanded="false" aria-controls="bib-batch-ordered-job-store" disabled title="BibTeX to be added">Bib</button>
+                <a class="publication-badge pdf-link" role="link" aria-disabled="true" title="PDF to be added">PDF</a>
+                <span class="publication-venue">IEEE Transactions on Computers (TC)</span>
+              </div>
+              <pre class="bib-content" id="bib-batch-ordered-job-store" hidden><code></code></pre></li>
+            <li class="publication" id="spark-mpi-survey"><h3><a href="https://ieeexplore.ieee.org/abstract/document/10970102" target="_blank" rel="noopener noreferrer">Towards Hybrid Architectures for Big Data Analytics: Insights from Spark-MPI Integration</a></h3>
+              <div class="publication-meta">
+                <span class="publication-badge publication-year" title="Publication year to be added" aria-label="Publication year to be added">Year —</span>
+                <span class="publication-badge authorship-badge">First author</span>
+                <button class="publication-badge bib-button" type="button" aria-expanded="false" aria-controls="bib-spark-mpi-survey" disabled title="BibTeX to be added">Bib</button>
+                <a class="publication-badge pdf-link" role="link" aria-disabled="true" title="PDF to be added">PDF</a>
+                <span class="publication-venue">IEEE Transactions on Services Computing (TSC)</span>
+              </div>
+              <pre class="bib-content" id="bib-spark-mpi-survey" hidden><code></code></pre></li>
+          </ol>
+          <h3 class="subheading" id="other-publications-heading">Other Publications</h3>
+          <ol class="publication-list" aria-labelledby="other-publications-heading">
+            <li class="publication" id="decentralized-digital-twins"><h3><a href="https://ieeexplore.ieee.org/abstract/document/11659325" target="_blank" rel="noopener noreferrer">(POSTER) Multi-Agent Framework for Decentralized Digital Twins</a></h3>
+              <div class="publication-meta">
+                <span class="publication-badge publication-year" aria-label="Publication year: 2026">2026</span>
+                <span class="publication-badge authorship-badge">First author</span>
+                <button class="publication-badge bib-button" type="button" aria-expanded="false" aria-controls="bib-decentralized-digital-twins" disabled title="BibTeX to be added">Bib</button>
+                <a class="publication-badge pdf-link" role="link" aria-disabled="true" title="PDF to be added">PDF</a>
+                <span class="publication-venue">22nd International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT)</span>
+              </div>
+              <pre class="bib-content" id="bib-decentralized-digital-twins" hidden><code></code></pre></li>
+            <li class="publication" id="multi-agent-faas"><h3><a href="https://ieeexplore.ieee.org/abstract/document/11651941" target="_blank" rel="noopener noreferrer">Multi-Agent Based Time Critical FaaS Scheduling in Edge-Cloud Continuum</a></h3>
+              <div class="publication-meta">
+                <span class="publication-badge publication-year" aria-label="Publication year: 2026">2026</span>
+                <span class="publication-badge authorship-badge">Second author</span>
+                <button class="publication-badge bib-button" type="button" aria-expanded="false" aria-controls="bib-multi-agent-faas" disabled title="BibTeX to be added">Bib</button>
+                <a class="publication-badge pdf-link" role="link" aria-disabled="true" title="PDF to be added">PDF</a>
+                <span class="publication-venue">IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)</span>
+              </div>
+              <pre class="bib-content" id="bib-multi-agent-faas" hidden><code></code></pre></li>
+            <li class="publication" id="spark-mpi-platform"><h3><a href="https://jcjs.siat.ac.cn/cn/article/doi/10.12146/j.issn.2095-3135.20241203002" target="_blank" rel="noopener noreferrer">Integrated Data Analysis and Processing Platform Based on Spark and MPI</a></h3>
+              <div class="publication-meta">
+                <span class="publication-badge publication-year" title="Publication year to be added" aria-label="Publication year to be added">Year —</span>
+                <span class="publication-badge authorship-badge">First author</span>
+                <button class="publication-badge bib-button" type="button" aria-expanded="false" aria-controls="bib-spark-mpi-platform" disabled title="BibTeX to be added">Bib</button>
+                <a class="publication-badge pdf-link" role="link" aria-disabled="true" title="PDF to be added">PDF</a>
+                <span class="publication-venue">Journal of Integration Technology (in Chinese)</span>
+              </div>
+              <pre class="bib-content" id="bib-spark-mpi-platform" hidden><code></code></pre></li>
+            <li class="publication" id="cloudhive"><h3><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.70238" target="_blank" rel="noopener noreferrer">Cloudhive: A Cloud-Based Framework for Smart Grid Co-Simulation, Data, and Communication</a></h3>
+              <div class="publication-meta">
+                <span class="publication-badge publication-year" title="Publication year to be added" aria-label="Publication year to be added">Year —</span>
+                <span class="publication-badge authorship-badge">Second author</span>
+                <button class="publication-badge bib-button" type="button" aria-expanded="false" aria-controls="bib-cloudhive" disabled title="BibTeX to be added">Bib</button>
+                <a class="publication-badge pdf-link" role="link" aria-disabled="true" title="PDF to be added">PDF</a>
+                <span class="publication-venue">Concurrency and Computation: Practice and Experience</span>
+              </div>
+              <pre class="bib-content" id="bib-cloudhive" hidden><code></code></pre></li>
+            <li class="publication" id="mcts-workflow"><h3><a href="https://ieeexplore.ieee.org/abstract/document/11245283" target="_blank" rel="noopener noreferrer">A Monte Carlo Tree Search-Based Algorithm for Workflow Scheduling</a></h3>
+              <div class="publication-meta">
+                <span class="publication-badge publication-year" title="Publication year to be added" aria-label="Publication year to be added">Year —</span>
+                <span class="publication-badge authorship-badge">Third author</span>
+                <button class="publication-badge bib-button" type="button" aria-expanded="false" aria-controls="bib-mcts-workflow" disabled title="BibTeX to be added">Bib</button>
+                <a class="publication-badge pdf-link" role="link" aria-disabled="true" title="PDF to be added">PDF</a>
+                <span class="publication-venue">IEEE International Symposium on Parallel and Distributed Processing with Applications (ISPA)</span>
+              </div>
+              <pre class="bib-content" id="bib-mcts-workflow" hidden><code></code></pre></li>
+            <li class="publication" id="tollhelper"><h3><a href="https://ieeexplore.ieee.org/abstract/document/10885367" target="_blank" rel="noopener noreferrer">TollHelper: A Safe and Efficient Traffic Control Approach on Toll Plaza via Constrained Load Balancing</a></h3>
+              <div class="publication-meta">
+                <span class="publication-badge publication-year" title="Publication year to be added" aria-label="Publication year to be added">Year —</span>
+                <span class="publication-badge authorship-badge">First author</span>
+                <button class="publication-badge bib-button" type="button" aria-expanded="false" aria-controls="bib-tollhelper" disabled title="BibTeX to be added">Bib</button>
+                <a class="publication-badge pdf-link" role="link" aria-disabled="true" title="PDF to be added">PDF</a>
+                <span class="publication-venue">IEEE International Symposium on Parallel and Distributed Processing with Applications (ISPA)</span>
+              </div>
+              <pre class="bib-content" id="bib-tollhelper" hidden><code></code></pre></li>
           </ol>
         </div>
       </section>
