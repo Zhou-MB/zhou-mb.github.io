@@ -17,14 +17,12 @@ From this directory, run `python3 -m http.server 8000`, then open http://localho
 
 ## Publish at the requested address
 
-The target URL is **https://mengbingzhou.github.io/**. GitHub requires a user or organization named `mengbingzhou` with a repository named `mengbingzhou.github.io` for this default address. Confirm ownership/availability first. Merely renaming a repository under another account does not provide this address.
+The target URL is **https://zhou-mb.github.io/**. This requires the repository `Zhou-MB/zhou-mb.github.io` (one user site per account).
 
-This checkout currently points to `Zhou-MB/homepage`; publishing it as a project site would normally use `https://zhou-mb.github.io/homepage/`.
-
-1. Under the intended `mengbingzhou` account or organization, create the public repository `mengbingzhou.github.io`.
-2. Push these files to its default branch, with `index.html` at the repository root.
-3. In **Settings → Pages**, choose **Deploy from a branch**, select the default branch and **/ (root)**, and save.
-4. Check the Pages deployment and visit https://mengbingzhou.github.io/.
+1. In the current repository’s **Settings → General**, rename `homepage` to `zhou-mb.github.io` if that repository name is not already in use.
+2. In **Settings → Pages**, keep the intended publishing branch and **/ (root)** source (or the existing GitHub Actions deployment).
+3. Update the local remote with `git remote set-url origin git@github.com:Zhou-MB/zhou-mb.github.io.git` after renaming.
+4. Push these files and check the Pages deployment, then visit https://zhou-mb.github.io/.
 
 The `.nojekyll` file enables direct static-file publishing. No custom-domain CNAME is needed. If publishing at a different URL, update the canonical URL, Open Graph URLs, JSON-LD URLs, `robots.txt`, and `sitemap.xml` before deploying.
 

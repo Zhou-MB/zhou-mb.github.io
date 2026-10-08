@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mengbingzhou.github.io/sitemap.xml
+Sitemap: https://zhou-mb.github.io/sitemap.xml
