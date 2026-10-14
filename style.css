@@ -48,3 +48,6 @@ button.publication-badge:not(:disabled),a.publication-badge[href]{cursor:pointer
 .publication-list .publication[hidden],.publication-more[hidden]{display:none}
 
 .publication-controls{display:flex;gap:20px;align-items:center}
+
+.selected-publications-title{display:flex;align-items:center;gap:8px}
+.selected-star{color:#73899b;font-size:.85em;font-weight:400;line-height:1}
