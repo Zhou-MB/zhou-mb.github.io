@@ -52,8 +52,14 @@ for (const publicationList of document.querySelectorAll('.publication-list')) {
   papers.forEach((paper) => publicationList.append(paper));
 
   const pageSize = 5;
-  let visibleCount = pageSize;
-  if (papers.length > pageSize) {
+  const initiallyCollapsed = publicationList.getAttribute('data-initial-count') === '0';
+  const initialCount = initiallyCollapsed ? 0 : pageSize;
+  let visibleCount = initialCount;
+  if (initiallyCollapsed) {
+    const heading = document.getElementById(publicationList.getAttribute('aria-labelledby'));
+    if (heading) heading.textContent = `Other Publications (${papers.length})`;
+  }
+  if (papers.length > initialCount) {
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'news-toggle publication-more';
@@ -73,7 +79,9 @@ for (const publicationList of document.querySelectorAll('.publication-list')) {
     const render = () => {
       papers.forEach((paper, index) => { paper.hidden = index >= visibleCount; });
       button.hidden = visibleCount >= papers.length;
-      collapse.hidden = visibleCount <= pageSize;
+      collapse.hidden = visibleCount <= initialCount;
+      button.textContent = visibleCount === 0 ? 'View them' : 'Show more';
+      button.setAttribute('aria-expanded', String(visibleCount > initialCount));
     };
     button.addEventListener('click', () => {
       visibleCount += pageSize;
@@ -81,9 +89,9 @@ for (const publicationList of document.querySelectorAll('.publication-list')) {
       if (button.hidden) collapse.focus({ preventScroll: true });
     });
     collapse.addEventListener('click', () => {
-      visibleCount = pageSize;
+      visibleCount = Math.max(initialCount, visibleCount - pageSize);
       render();
-      button.focus({ preventScroll: true });
+      if (collapse.hidden) button.focus({ preventScroll: true });
     });
     render();
     publicationList.after(controls);
