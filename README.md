@@ -38,7 +38,7 @@ Indexing and ranking for “Mengbing Zhou” or “周梦兵” are controlled b
 
 References: [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages), [Google indexing requests](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl).
 
-Teaching and supervision entries in `#teaching-list` use `data-sort-date="YYYY-MM"` for the end date. They are sorted newest first, with five shown initially and a Show more / Show less button when needed.
+Teaching and supervision entries in `#teaching-list` use `data-sort-date="YYYY-MM"` for the end date. They are sorted newest first, with five shown initially and a View more / View less button when needed.
 
 ## Publication badges
 

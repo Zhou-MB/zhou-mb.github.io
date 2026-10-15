@@ -1,7 +1,7 @@
 // Keep entries readable without JavaScript; enhance dated lists with sorting and expansion.
 for (const [selector, moreLabel, lessLabel] of [
-  ['#news-list', 'View all news', 'Show less news'],
-  ['#teaching-list', 'Show more', 'Show less'],
+  ['#news-list', 'View all news', 'View less news'],
+  ['#teaching-list', 'View more', 'View less'],
 ]) {
   const list = document.querySelector(selector);
   if (!list) continue;

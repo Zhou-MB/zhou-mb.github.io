@@ -63,7 +63,7 @@ for (const publicationList of document.querySelectorAll('.publication-list')) {
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'news-toggle publication-more';
-    button.textContent = 'Show more';
+    button.textContent = 'View more';
     if (!publicationList.id) {
       publicationList.id = publicationList.getAttribute('aria-labelledby').replace('-heading', '-list');
     }
@@ -71,7 +71,7 @@ for (const publicationList of document.querySelectorAll('.publication-list')) {
     const collapse = document.createElement('button');
     collapse.type = 'button';
     collapse.className = 'news-toggle publication-more';
-    collapse.textContent = 'Show less';
+    collapse.textContent = 'View less';
     collapse.setAttribute('aria-controls', publicationList.id);
     const controls = document.createElement('div');
     controls.className = 'publication-controls';
@@ -80,7 +80,7 @@ for (const publicationList of document.querySelectorAll('.publication-list')) {
       papers.forEach((paper, index) => { paper.hidden = index >= visibleCount; });
       button.hidden = visibleCount >= papers.length;
       collapse.hidden = visibleCount <= initialCount;
-      button.textContent = visibleCount === 0 ? 'View them' : 'Show more';
+      button.textContent = visibleCount === 0 ? 'View them' : 'View more';
       button.setAttribute('aria-expanded', String(visibleCount > initialCount));
     };
     button.addEventListener('click', () => {
