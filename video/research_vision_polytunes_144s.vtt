@@ -1,0 +1,73 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.000
+A bus needs a route through a changing city.
+
+00:00:06.000 --> 00:00:12.000
+A digital twin uses observations to explore the options.
+
+00:00:12.000 --> 00:00:18.000
+The route is ready before the junction.
+
+00:00:18.000 --> 00:00:24.000
+But the answer relies on an older picture of the road.
+
+00:00:24.000 --> 00:00:30.000
+The answer arrived on time. The world had changed.
+
+00:00:30.000 --> 00:00:36.000
+What if we update every digital state immediately?
+
+00:00:36.000 --> 00:00:42.000
+At scale, those updates compete for limited bandwidth.
+
+00:00:42.000 --> 00:00:48.000
+Sending everything can leave important changes waiting.
+
+00:00:48.000 --> 00:00:54.000
+Which update matters most to this decision?
+
+00:00:54.000 --> 00:01:00.000
+The oldest information is not always the most relevant.
+
+00:01:00.000 --> 00:01:06.000
+Freshness must be considered together with the task.
+
+00:01:06.000 --> 00:01:12.000
+Fresh information still needs computation.
+
+00:01:12.000 --> 00:01:18.000
+The nearby edge may be busy. The cloud needs communication.
+
+00:01:18.000 --> 00:01:24.000
+Faster processing can also compete with an energy budget.
+
+00:01:24.000 --> 00:01:30.000
+My research connects service scheduling and state synchronization.
+
+00:01:30.000 --> 00:01:36.000
+Existing methods face different objectives and constraints.
+
+00:01:36.000 --> 00:01:42.000
+A method that fits one problem may not fit the next.
+
+00:01:42.000 --> 00:01:48.000
+Designing a new algorithm still demands expert effort.
+
+00:01:48.000 --> 00:01:54.000
+Can we reuse scheduling knowledge instead of starting over?
+
+00:01:54.000 --> 00:02:00.000
+I explore AI-assisted generation of candidate algorithms.
+
+00:02:00.000 --> 00:02:06.000
+Candidates must satisfy constraints and be evaluated.
+
+00:02:06.000 --> 00:02:12.000
+The aim is reusable algorithm design knowledge.
+
+00:02:12.000 --> 00:02:18.000
+I will explore adaptation to changing conditions.
+
+00:02:18.000 --> 00:02:24.000
+The goal is timely, relevant information for a changing world.

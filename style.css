@@ -54,3 +54,9 @@ button.publication-badge:not(:disabled),a.publication-badge[href]{cursor:pointer
 
 .selected-publications-title{display:flex;align-items:center;gap:8px}
 .selected-star{color:#73899b;font-size:.85em;font-weight:400;line-height:1}
+
+/* Research overview below the research interests. */
+.research-video{clear:both;width:78%;max-width:589px;margin:20px 0 24px}
+.research-video video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#f7f9fc;border:1px solid var(--line);border-radius:6px}
+.research-video video:focus-visible{outline:2px solid var(--blue);outline-offset:4px}
+.research-video figcaption{margin-top:7px;color:var(--muted);font-size:15px}

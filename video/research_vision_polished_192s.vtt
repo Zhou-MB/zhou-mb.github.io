@@ -1,0 +1,73 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:08.000
+When we take the bus to work, changing road conditions can make us late.
+
+00:00:08.000 --> 00:00:16.000
+A digital twin system can use sensor data to help the bus choose a route.
+
+00:00:16.000 --> 00:00:24.000
+But choosing a route before the next junction is only part of the challenge.
+
+00:00:24.000 --> 00:00:32.000
+If the digital twin system has not received the latest road conditions,
+
+00:00:32.000 --> 00:00:40.000
+even an on-time instruction can be unhelpful or lead to costly mistakes.
+
+00:00:40.000 --> 00:00:48.000
+Could we solve this by updating every digital state immediately?
+
+00:00:48.000 --> 00:00:56.000
+At scale, these updates compete for limited bandwidth.
+
+00:00:56.000 --> 00:01:04.000
+Trying to send everything can leave important changes waiting.
+
+00:01:04.000 --> 00:01:12.000
+The key is that different updates have different value for each task.
+
+00:01:12.000 --> 00:01:20.000
+Age and frequency of change offer clues, but do not capture the full picture.
+
+00:01:20.000 --> 00:01:28.000
+So we need to prioritize the updates that matter to the decision.
+
+00:01:28.000 --> 00:01:36.000
+Alongside these updates, digital twin systems run many computational tasks.
+
+00:01:36.000 --> 00:01:44.000
+At scale, these tasks are spread across edge and cloud resources.
+
+00:01:44.000 --> 00:01:52.000
+With limited resources and tight deadlines, deciding what runs where becomes difficult.
+
+00:01:52.000 --> 00:02:00.000
+Task execution and state updates must work together to meet diverse requirements.
+
+00:02:00.000 --> 00:02:08.000
+To address these challenges, we study scheduling through modeling and theoretical optimization.
+
+00:02:08.000 --> 00:02:16.000
+We then develop and evaluate methods for task execution and state synchronization.
+
+00:02:16.000 --> 00:02:24.000
+We will also explore agentic methods that adapt scheduling as conditions change.
+
+00:02:24.000 --> 00:02:32.000
+Across these settings, scheduling objectives and constraints vary widely.
+
+00:02:32.000 --> 00:02:40.000
+No single scheduling method is best for every combination of requirements.
+
+00:02:40.000 --> 00:02:48.000
+This also motivates us to explore how AI can generate scheduling algorithms.
+
+00:02:48.000 --> 00:02:56.000
+These AI-generated candidates must be tested against constraints and performance goals.
+
+00:02:56.000 --> 00:03:04.000
+Together, these efforts help digital twin systems turn data into timely, useful decisions.
+
+00:03:04.000 --> 00:03:12.000
+Our goal is to build better digital twin systems that improve everyday life.

@@ -1,0 +1,28 @@
+Critical motion is checked at every frame. Minimum scene duration 8 seconds. Additional 0.833-second cross-dissolve transitions follow completed scenes.
+
+01  completed at 8.000s  cut at 8.250s  When we take the bus to work, changing road conditions can make us late.
+02  completed at 8.000s  cut at 8.250s  A digital twin system can use sensor data to help the bus choose a route.
+03  completed at 8.000s  cut at 8.250s  However, choosing the right route is not as simple as it seems.
+04  completed at 8.000s  cut at 8.250s  If the digital twin system does not maintain an up-to-date view of road conditions,
+05  completed at 8.000s  cut at 8.250s  following its instructions can still lead to costly mistakes.
+06  completed at 10.000s  cut at 10.250s  Could we avoid this by updating every digital state immediately?
+07  completed at 10.000s  cut at 10.250s  Unfortunately, limited bandwidth means we cannot send every update at once.
+08  completed at 10.000s  cut at 10.250s  As updates queue up, important changes can be left waiting.
+09  completed at 8.000s  cut at 8.000s  Some updates matter more than others for a given task.
+10  completed at 8.000s  cut at 8.000s  Age and frequency of change offer clues, but do not capture the full picture.
+11  completed at 8.000s  cut at 8.250s  So we need to prioritize the updates that matter to the decision.
+12  completed at 8.000s  cut at 8.250s  Digital twin systems also need computing power to run their tasks.
+13  completed at 11.458s  cut at 11.708s  These tasks are distributed across edge and cloud resources.
+14  completed at 11.458s  cut at 11.708s  With limited resources and tight deadlines, deciding where and when to run them is difficult.
+15  completed at 11.458s  cut at 11.708s  Task execution and state updates must work together to meet diverse requirements.
+16  completed at 8.000s  cut at 8.250s  We study these challenges through scheduling models and theoretical optimization.
+17  completed at 8.000s  cut at 8.250s  We then develop and evaluate methods for task execution and state synchronization.
+18  completed at 8.000s  cut at 8.250s  We will also explore agentic methods that adapt scheduling as conditions change.
+19  completed at 8.000s  cut at 8.000s  Across these settings, scheduling objectives and constraints vary widely.
+20  completed at 8.000s  cut at 8.000s  No single scheduling method works best for every problem.
+21  completed at 8.000s  cut at 8.250s  We also explore how AI can generate scheduling algorithms.
+22  completed at 8.000s  cut at 8.000s  These AI-generated algorithms must meet the constraints and perform well in tests.
+23  completed at 8.000s  cut at 8.250s  Together, these efforts help digital twin systems turn data into timely, useful decisions.
+24  completed at 8.000s  cut at 8.250s  Our goal is to build better digital twin systems that improve everyday life.
+
+Total 232.292 seconds.

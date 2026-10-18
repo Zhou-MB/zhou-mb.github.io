@@ -1,0 +1,31 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:08.000
+Imagine heavy rain approaching a city. A bus needs a safer route.
+
+00:00:08.000 --> 00:00:17.000
+A digital twin connects observations of the road, the rain, and the bus.
+
+00:00:17.000 --> 00:00:25.000
+Simulations compare possible routes before the bus reaches the junction.
+
+00:00:25.000 --> 00:00:34.000
+A useful answer can become useless if it arrives too late.
+
+00:00:34.000 --> 00:00:44.000
+Across edge and cloud, tasks compete for compute and communication.
+
+00:00:44.000 --> 00:00:54.000
+Time-critical scheduling puts the urgent route decision first.
+
+00:00:54.000 --> 00:01:03.000
+Agents share local conditions and coordinate tasks across resources.
+
+00:01:03.000 --> 00:01:13.000
+The schedule must adapt as connections and workloads change.
+
+00:01:13.000 --> 00:01:22.000
+I study how AI can help design and evaluate scheduling algorithms.
+
+00:01:22.000 --> 00:01:30.000
+My goal: distributed digital twins that support timely decisions.

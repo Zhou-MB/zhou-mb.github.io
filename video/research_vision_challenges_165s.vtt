@@ -1,0 +1,73 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.000
+A bus needs a route through a changing city.
+
+00:00:06.000 --> 00:00:12.000
+A digital twin uses observations to explore the options.
+
+00:00:12.000 --> 00:00:18.000
+The route is calculated before the bus reaches the junction.
+
+00:00:18.000 --> 00:00:25.000
+But the answer relies on an older picture of the road.
+
+00:00:25.000 --> 00:00:32.000
+The answer arrived on time. The world had changed.
+
+00:00:32.000 --> 00:00:39.000
+What if we update every digital state immediately?
+
+00:00:39.000 --> 00:00:46.000
+At scale, those updates compete for limited bandwidth.
+
+00:00:46.000 --> 00:00:53.000
+Sending everything can leave important changes waiting.
+
+00:00:53.000 --> 00:01:00.000
+Which update matters most to this decision?
+
+00:01:00.000 --> 00:01:07.000
+The oldest information is not always the most relevant.
+
+00:01:07.000 --> 00:01:14.000
+Freshness must be considered together with the task.
+
+00:01:14.000 --> 00:01:21.000
+Fresh information still needs computation.
+
+00:01:21.000 --> 00:01:28.000
+The nearby edge may be busy. The cloud needs communication.
+
+00:01:28.000 --> 00:01:35.000
+Faster processing can also compete with an energy budget.
+
+00:01:35.000 --> 00:01:42.000
+The research challenge: schedule execution and state updates together.
+
+00:01:42.000 --> 00:01:49.000
+Existing methods face different objectives and constraints.
+
+00:01:49.000 --> 00:01:56.000
+A method that fits one problem may not fit the next.
+
+00:01:56.000 --> 00:02:03.000
+Designing a new algorithm still demands expert effort.
+
+00:02:03.000 --> 00:02:10.000
+Can we reuse scheduling knowledge instead of starting over?
+
+00:02:10.000 --> 00:02:17.000
+I explore AI-assisted generation of candidate algorithms.
+
+00:02:17.000 --> 00:02:24.000
+Candidates must satisfy constraints and be evaluated.
+
+00:02:24.000 --> 00:02:31.000
+The aim is transferable design knowledge, not just generated code.
+
+00:02:31.000 --> 00:02:38.000
+Next: investigate adaptation as runtime conditions change.
+
+00:02:38.000 --> 00:02:45.000
+The goal: timely, relevant information for a changing world.

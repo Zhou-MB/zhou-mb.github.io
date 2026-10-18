@@ -1,0 +1,73 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:08.000
+A bus needs a safe route through the city.
+
+00:00:08.000 --> 00:00:16.000
+A digital twin uses road conditions to plan the route.
+
+00:00:16.000 --> 00:00:24.000
+The route is ready before the bus reaches the junction.
+
+00:00:24.000 --> 00:00:32.000
+If the twin has not received the latest road conditions,
+
+00:00:32.000 --> 00:00:40.000
+even an on-time instruction can be useless or cause harm.
+
+00:00:40.000 --> 00:00:48.000
+What if we update every digital state immediately?
+
+00:00:48.000 --> 00:00:56.000
+At scale, those updates compete for limited bandwidth.
+
+00:00:56.000 --> 00:01:04.000
+Sending everything can leave important changes waiting.
+
+00:01:04.000 --> 00:01:12.000
+Different state updates have different value for a task.
+
+00:01:12.000 --> 00:01:20.000
+Age or frequency of change alone cannot tell us that value.
+
+00:01:20.000 --> 00:01:28.000
+We need to prioritize updates that matter to the decision.
+
+00:01:28.000 --> 00:01:36.000
+Digital twins also run many tasks that require computation.
+
+00:01:36.000 --> 00:01:44.000
+At scale, these tasks are distributed across edge and cloud resources.
+
+00:01:44.000 --> 00:01:52.000
+Limited resources and tight deadlines make scheduling difficult.
+
+00:01:52.000 --> 00:02:00.000
+Execution and state updates must be coordinated to meet those deadlines.
+
+00:02:00.000 --> 00:02:08.000
+Scheduling problems involve diverse objectives and constraints.
+
+00:02:08.000 --> 00:02:16.000
+No single scheduling method works best for every problem.
+
+00:02:16.000 --> 00:02:24.000
+We study these problems through modeling and theoretical optimization.
+
+00:02:24.000 --> 00:02:32.000
+We develop and evaluate methods for execution and state updates.
+
+00:02:32.000 --> 00:02:40.000
+We will explore agentic methods to adapt scheduling as conditions change.
+
+00:02:40.000 --> 00:02:48.000
+We also explore how AI can generate scheduling algorithms.
+
+00:02:48.000 --> 00:02:56.000
+AI-generated algorithm candidates must be checked and evaluated.
+
+00:02:56.000 --> 00:03:04.000
+These approaches support timely and useful digital twin decisions.
+
+00:03:04.000 --> 00:03:12.000
+Our goal is to build better digital twins that improve everyday life.
