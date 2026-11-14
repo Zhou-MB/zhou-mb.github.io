@@ -8,7 +8,7 @@
 @media(max-width:440px){.news-list li{grid-template-columns:1fr;gap:4px}}
 
 /* Compact affiliation line and readable photo contact. */
-.role{font-size:17px}.role .institution-link{display:inline;font-size:inherit}.portrait .contact-link{font-size:17px;font-weight:700}
+.role{font-size:17px}.role .institution-link{display:inline;font-size:inherit}.portrait .contact-link{font-size:17px;font-weight:600}
 @media(max-width:700px){.role{font-size:16px}.portrait .contact-link{font-size:16px}}
 
 .news-list li[hidden]{display:none}.news-toggle{margin-top:4px;padding:4px 0;border:0;background:none;color:var(--blue);font:inherit;font-size:16px;font-weight:600;cursor:pointer;text-decoration:underline;text-underline-offset:4px}.news-toggle:hover{color:#102f48}.news-toggle:focus-visible{outline:2px solid var(--blue);outline-offset:5px}
@@ -63,7 +63,7 @@ button.publication-badge:not(:disabled),a.publication-badge[href]{cursor:pointer
 
 .paper-mascot{display:none}
 @media(min-width:800px){
-  .education-layout{display:grid;grid-template-columns:minmax(0,1fr) 155px;align-items:center;gap:20px}
+  .education-layout{display:grid;grid-template-columns:minmax(0,1fr) 155px;align-items:center;gap:20px;padding-right:clamp(88px,calc(3vw + 72px),104px)}
   .paper-mascot{display:block;margin:0;text-align:center;color:#526f83}
   .paper-mascot svg{display:block;margin:auto}
   .paper-mascot figcaption{font:italic 15px/1.4 var(--serif)}
