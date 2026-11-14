@@ -60,3 +60,11 @@ button.publication-badge:not(:disabled),a.publication-badge[href]{cursor:pointer
 .research-video video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#f7f9fc;border:1px solid var(--line);border-radius:6px}
 .research-video video:focus-visible{outline:2px solid var(--blue);outline-offset:4px}
 .research-video figcaption{margin-top:7px;color:var(--muted);font-size:15px}
+
+.paper-mascot{display:none}
+@media(min-width:800px){
+  .education-layout{display:grid;grid-template-columns:minmax(0,1fr) 155px;align-items:center;gap:20px}
+  .paper-mascot{display:block;margin:0;text-align:center;color:#526f83}
+  .paper-mascot svg{display:block;margin:auto}
+  .paper-mascot figcaption{font:italic 15px/1.4 var(--serif)}
+}
